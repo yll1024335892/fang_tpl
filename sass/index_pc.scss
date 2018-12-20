@@ -1,0 +1,4 @@
+@import "compass/css3";
+.xx{
+  @include border-radius(0.5px);
+}
