@@ -1,0 +1,19 @@
+.footer.alex { background: url(../images/footer-bg.jpg) no-repeat center top #222; clear: both; width: 100%; height: 426px; margin-top: 45px; }
+.footer.alex .wrapper { width: 1150px; margin: 0 auto; }
+.footer.alex .wrapper .f-title { height: 75px; border-bottom: 1px solid #393939; line-height: 75px; margin: 0px; }
+.footer.alex .wrapper .f-title .fl li { float: left; }
+.footer.alex .wrapper .f-title .fl li a { color: #fff; margin-right: 15px; font-size: 14px; }
+.footer.alex .wrapper .f-title .fl li a:hover { text-decoration: none; }
+.footer.alex .wrapper .f-title .fr { color: #7dcfa0; }
+.footer.alex .alex-link-box { padding: 13px 0px 20px 0px; border-bottom: 1px solid #393939; background: none; }
+.footer.alex .alex-link-box .fl { width: 1000px; }
+.footer.alex .alex-link-box .fl .tab { height: 40px; }
+.footer.alex .alex-link-box .fl .tab span { display: inline-block; padding: 8px 10px; background: #121212; color: #888c8e; float: left; margin-right: 12px; margin-bottom: 12px; cursor: pointer; font-size: 12px; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+.footer.alex .alex-link-box .fl .tab span:hover { background: #394043; color: #fff; }
+.footer.alex .alex-link-box .fl .link-list { clear: both; }
+.footer.alex .alex-link-box .fl .link-list div { display: none; min-height: 89px; }
+.footer.alex .alex-link-box .fl .link-list div dd a { color: #888c8e; font-size: 12px; display: inline-block; margin: 10px 10px 0px 0px; }
+.footer.alex .alex-link-box .fr { width: 140px; }
+.footer.alex .alex-link-box .fr img { border: 5px solid #fff; border-radius: 2px; width: 129px; height: 129px; }
+.footer.alex .bottom { padding-top: 23px; }
+.footer.alex .bottom .copyright { color: #888c8e; font-size: 12px; line-height: 20px; }
