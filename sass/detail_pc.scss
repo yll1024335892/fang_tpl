@@ -876,12 +876,12 @@
       .arround {
         width: 100%;
         height: 510px;
-        .map-content {
-          position: relative;
-          width: 100%;
-          height: 510px;
-          z-index: 0;
-        }
+      }
+      .map-content {
+        position: relative;
+        width: 100%;
+        height: 510px;
+        z-index: 0;
       }
       .similar-recommend{
         .similar-box {
