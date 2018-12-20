@@ -1,1 +1,35 @@
-.xx { -moz-border-radius: 0.5px; -webkit-border-radius: 0.5px; border-radius: 0.5px; }
+.wrapper { margin: 0 auto; width: 1150px; }
+
+.alxe-house { clear: both; }
+.alxe-house .wrapper { overflow: hidden; position: relative; padding: 50px 0 15px; }
+.alxe-house .fl .name h1 { display: inline; font-weight: 400; }
+.alxe-house .fl .name h2 { display: inline; color: #888; font-weight: 100; padding-left: 10px; }
+.alxe-house .fl p { color: #888; margin-top: 10px; width: 1150px; }
+.alxe-house .fl p a { color: #394043; margin-left: 20px; float: right; }
+.alxe-house ul { margin-top: 40px; width: 2100px; }
+.alxe-house ul li { position: relative; width: 250px; height: 323px; float: left; margin-right: 50px; border-radius: 2px; margin-bottom: 3px; }
+.alxe-house ul li .wra { box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
+.alxe-house ul li .wra img { width: 250px; height: 192px; }
+.alxe-house ul li .wra .price { position: absolute; padding: 0 8px; border-radius: 1px; height: 30px; background: #394043; font-size: 18px; text-align: center; top: 150px; line-height: 30px; color: #fff; left: 0; }
+.alxe-house ul li .wra .bottom { width: 250px; height: 72px; background: #fff; }
+.alxe-house ul li .wra .bottom p.p01 { font-size: 16px; color: #394043; height: 30px; overflow: hidden; text-overflow: ellipsis; padding: 10px 18px 0; }
+.alxe-house ul li .wra .bottom p.tips { color: #999; font-size: 12px; padding: 0 18px; overflow: hidden; height: 45px; line-height: 45px; }
+.alxe-house ul li .wra .bottom p.tips span { margin-right: 8px; }
+.alxe-house ul li a { display: block; }
+.alxe-house ul li a:hover { text-decoration: none; }
+.alxe-house ul li:hover .wra { box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }
+
+.new-house { width: 100%; height: 422px; clear: both; padding-top: 50px; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.new-house .fl .name h1 { display: inline; font-weight: 400; }
+.new-house .fl .name h2 { display: inline; color: #888; font-weight: 100; padding-left: 10px; }
+.new-house .fl p { color: #888; margin-top: 10px; width: 1150px; }
+.new-house .fl p a { color: #394043; margin-left: 20px; float: right; }
+.new-house .newhose-list { clear: both; top: 41px; width: 1158px; overflow: hidden; height: 310px; left: -8px; position: relative; }
+.new-house .newhose-list ul { position: absolute; width: 25000px; top: 0; left: 8px; }
+.new-house .newhose-list ul li a { width: 350px; height: 260px; position: relative; float: left; margin-right: 50px; display: block; }
+.new-house .newhose-list ul li a img { width: 350px; height: 260px; -webkit-transition: .7s ease-in-out; -moz-transition: .7s ease-in-out; -ms-transition: .7s ease-in-out; -o-transition: .7s ease-in-out; transition: .7s ease-in-out; }
+.new-house .newhose-list ul li a .title { font-size: 24px; color: #fff; position: absolute; bottom: 25px; width: 350px; font-weight: 700; height: 260px; left: 50%; top: 50%; margin-left: -175px; text-align: center; margin-top: -35px; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
+.new-house .newhose-list ul li a .title span { color: #fff2ab; font-size: 17px; display: block; font-weight: normal; }
+.new-house .newhose-list ul li a .title01 { position: absolute; bottom: -35px; font-size: 12px; line-height: 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 350px; color: #b0b3b4; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8); }
+.new-house .newhose-list ul li a .title01 span { display: block; float: left; max-width: 240px; white-space: nowrap; overflow: hidden; height: 20px; text-overflow: ellipsis; }
+.new-house .newhose-list ul li a:hover img { webkit-transform: scale(1.03); -moz-transform: scale(1.03); -ms-transform: scale(1.03); -o-transform: scale(1.03); transform: scale(1.03); }
