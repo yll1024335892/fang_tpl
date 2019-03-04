@@ -1,0 +1,114 @@
+@import "compass/css3";
+.new-detail-contain{
+  width: 1180px; margin:10px auto 0px;
+  .bread-c{
+    color: #869099;
+    a{
+      text-decoration: none; color: inherit; font-size: 12px;
+    }
+  }
+  .left-contain{
+    padding-top: 40px; width: 850px; float: left;
+    .m-msg {
+      h1{font-size: 30px;font-weight: bold;line-height: 36px;}
+      .date{font-size: 12px;color: #869099;padding-top: 10px;}
+    }
+    .m-detail{padding: 30px 0 35px;font-size: 16px;line-height: 30px;
+
+    }
+  }
+  .right-contain{width: 280px;float: right;
+    .house-list{
+      h4{font-size: 18px;font-weight: bold;line-height: 20px;position: relative;
+        a{font-size: 14px;color: #14be46;position: absolute;right: 0;bottom: 0;z-index: 1; font-weight: normal;line-height: 16px;}
+      }
+      .h-l-c{
+        margin-top: 30px;
+        a{ text-decoration: none; color: inherit;}
+        li{
+          .img{
+            position: relative;
+            img{width: 280px;height: 210px;border-radius: 2px;}
+            .h-price{
+              position: absolute; bottom: 10px; color: #fff; width: 100%; text-align: right;
+              font-size: 18px;font-weight: bold;
+            }
+          }
+          .text{
+            width: 100%;
+            padding-top: 10px;
+            span{
+              &.name{
+                color: #3b4144;
+                font-size: 18px;
+                font-weight: bold;
+                display: block;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+              &.loc{
+                color: #869099;
+                font-size: 12px;
+                display: block;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin-top: 6px;
+                i{
+                  width: 11px;
+                  height: 12px;
+                  display: inline-block;
+                  *display: inline;
+                  *zoom: 1;
+                  margin-right: 5px;
+                  position: relative;
+                  top: 2px;
+                  img{
+                    width: 12px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .news-list{
+      padding: 48px 0 0;
+      h4{
+        font-size: 18px;font-weight: bold;line-height: 20px;position: relative;
+      }
+      .n-l-c{
+        margin-top: 30px;
+        a{
+          display: block; color: inherit; text-decoration: none;
+          li{
+            img{
+              width: 80px;
+              height: 60px;
+              float: left;
+              margin-right: 20px;
+              border-radius: 2px;
+            }
+            p.tit{
+              color: #3b4144;
+              font-size: 14px;
+              line-height: 22px;
+              height: 44px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+            }
+            p.date{
+              color: #869099;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.new-detail-contain { width: 1180px; margin: 10px auto 0px; }
+.new-detail-contain .bread-c { color: #869099; }
+.new-detail-contain .bread-c a { text-decoration: none; color: inherit; font-size: 12px; }
+.new-detail-contain .left-contain { padding-top: 40px; width: 850px; float: left; }
+.new-detail-contain .left-contain .m-msg h1 { font-size: 30px; font-weight: bold; line-height: 36px; }
+.new-detail-contain .left-contain .m-msg .date { font-size: 12px; color: #869099; padding-top: 10px; }
+.new-detail-contain .left-contain .m-detail { padding: 30px 0 35px; font-size: 16px; line-height: 30px; }
+.new-detail-contain .right-contain { width: 280px; float: right; }
+.new-detail-contain .right-contain .house-list h4 { font-size: 18px; font-weight: bold; line-height: 20px; position: relative; }
+.new-detail-contain .right-contain .house-list h4 a { font-size: 14px; color: #14be46; position: absolute; right: 0; bottom: 0; z-index: 1; font-weight: normal; line-height: 16px; }
+.new-detail-contain .right-contain .house-list .h-l-c { margin-top: 30px; }
+.new-detail-contain .right-contain .house-list .h-l-c a { text-decoration: none; color: inherit; }
+.new-detail-contain .right-contain .house-list .h-l-c li .img { position: relative; }
+.new-detail-contain .right-contain .house-list .h-l-c li .img img { width: 280px; height: 210px; border-radius: 2px; }
+.new-detail-contain .right-contain .house-list .h-l-c li .img .h-price { position: absolute; bottom: 10px; color: #fff; width: 100%; text-align: right; font-size: 18px; font-weight: bold; }
+.new-detail-contain .right-contain .house-list .h-l-c li .text { width: 100%; padding-top: 10px; }
+.new-detail-contain .right-contain .house-list .h-l-c li .text span.name { color: #3b4144; font-size: 18px; font-weight: bold; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.new-detail-contain .right-contain .house-list .h-l-c li .text span.loc { color: #869099; font-size: 12px; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 6px; }
+.new-detail-contain .right-contain .house-list .h-l-c li .text span.loc i { width: 11px; height: 12px; display: inline-block; *display: inline; *zoom: 1; margin-right: 5px; position: relative; top: 2px; }
+.new-detail-contain .right-contain .house-list .h-l-c li .text span.loc i img { width: 12px; }
+.new-detail-contain .right-contain .news-list { padding: 48px 0 0; }
+.new-detail-contain .right-contain .news-list h4 { font-size: 18px; font-weight: bold; line-height: 20px; position: relative; }
+.new-detail-contain .right-contain .news-list .n-l-c { margin-top: 30px; }
+.new-detail-contain .right-contain .news-list .n-l-c a { display: block; color: inherit; text-decoration: none; }
+.new-detail-contain .right-contain .news-list .n-l-c a li img { width: 80px; height: 60px; float: left; margin-right: 20px; border-radius: 2px; }
+.new-detail-contain .right-contain .news-list .n-l-c a li p.tit { color: #3b4144; font-size: 14px; line-height: 22px; height: 44px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.new-detail-contain .right-contain .news-list .n-l-c a li p.date { color: #869099; font-size: 12px; }
